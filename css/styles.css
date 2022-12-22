@@ -1,0 +1,111 @@
+
+
+/* Web types zone */
+.pages {
+    margin: auto;
+    width: 90%;
+    
+}
+
+.pages__page {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    width: 30%;
+    margin: 0 1.5%;
+    padding: 1rem;
+    border: 2px solid cornflowerblue;
+    border-radius: 8px;
+}
+
+.pages__page:hover {
+    border-color: goldenrod;
+}
+.pages__page:active {
+    border: 4px solid gold;
+}
+
+.pages__page:hover .pages__page--title {
+    color: cornflowerblue;
+    font-size: 32px;
+}
+
+.pages__page--img {
+    width: 60%;
+    height: auto;
+}
+
+/* Navegation */
+.navegation {
+    background-color: grey;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    width: 30%;
+}
+.logo_img {
+    margin: auto;
+    height: 100%;
+    width: 200px;
+}
+nav{
+    display: flex;
+    justify-self: flex-end;
+    width: 70%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+nav ul li {
+    list-style-type:none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 8px;
+    margin-left: 12px;
+}
+
+nav a:hover {
+    color: dimgray;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../img/tela.jpg);
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.footer_img {
+    margin: 0;
+    height: 200px;
+    width: 200px;
+}
+
+.copyright {
+    margin: 0;
+    font-size: 16px;
+    color: white;
+}
