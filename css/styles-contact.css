@@ -1,0 +1,31 @@
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.contact__form {
+    width: 80%;
+    margin: auto;
+
+}
+
+.contact__form--input,
+.contact__form--label,
+.contact__form--metod{
+    display: block;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+    margin: auto;
+    resize: none;
+}
+
+.contact__form--label--checkbox {
+    margin: 1rem 0.5rem;
+}
+
+
+.contact__form--metod--title {
+    font-size: 2rem;
+}

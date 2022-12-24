@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles-contact.css">
+    <title>Vinsmake Developer</title>
+</head>
+
+<body>
+<!-- HEADER -->
+    <header>
+        <section class="navegation">
+            <div class="logo">
+                <img class="logo_img" src="../img/logo.png" alt="logo_vinsmake_developer">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+<!-- MAIN -->
+    <main>
+        <!-- FORM -->
+        <form class="contact__form">
+            <label class="contact__form--label" for="nombreApellido">Name and last name</label>
+            <input class="contact__form--input" type="text" name="nombreApellido" id="nombreApellido" placeholder="Your name" required>
+        
+            <label class="contact__form--label" for="email">Email</label>
+            <input class="contact__form--input" type="email" name="email" id="email" placeholder="user@domain.com" required>
+        
+            <label class="contact__form--label" for="phone" required >Movil (with area code)</label>
+            <input class="contact__form--input" type="tel" name="phone" id="phone" placeholder="(52)3374859612">
+        
+            <label class="contact__form--label" for="message">Message</label>
+            <textarea class="contact__form--input" rows="5" id="message" required placeholder="Write here your message"></textarea>
+
+            <fieldset class="contact__form--metod">
+        
+                <legend class="contact__form--metod--title">How would you like to be contacted?</legend>
+        
+                <label class="contact__form--label" for="radioEmail"><input type="radio" name="radioContacto" value="radioEmail" id="radioEmail" checked>Email</label>
+                
+        
+                <label class="contact__form--label" for="radioTelefono"><input type="radio" name="radioContacto" value="radioTelefono" id="radioTelefono">Movil</label>
+                
+        
+                <label class="contact__form--label" for="radioWhatsapp"><input type="radio" name="radioContacto" value="radioWhatsapp" id="radioWhatsapp">Whats App</label>
+                
+            </fieldset>
+            <fieldset class="contact__form--metod">
+                <legend class="contact__form--metod--title">What time would you like to be contacted?</legend>
+                <select class="contact__form--label">
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                    <option>All day</option>
+                </select>
+            </fieldset>
+        
+            <label class="contact__form--label contact__form--label--checkbox"><input type="checkbox">Would you like to recive notifications with promos?</label>
+        
+            <input class="contact__form--input" type="submit" name="submit" id="submit">
+        </form>
+    </main>
+
+
+    <footer>
+        <img class="footer_img" src="../img/logo.png" alt="logo_vinsmake_developer">
+        <p class="copyright">&copy; Copyright Enrique Plascencia - 2022</p>
+    </footer>
+</body>
+
+</html>

@@ -29,7 +29,6 @@
 
 .pages__page:hover .pages__page--title {
     color: cornflowerblue;
-    font-size: 32px;
 }
 
 .pages__page--img {
